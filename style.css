@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #000;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.container {
+  max-width: 800px;
+  background: #fff;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input, textarea, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cv-box {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #aaa;
+  margin-top: 20px;
+  color: #000;
+}
+
+.cv-box.default {
+  border-left: 5px solid #333;
+}
+
+.cv-box.blue {
+  border-left: 5px solid #007bff;
+  background-color: #e6f0ff;
+}
